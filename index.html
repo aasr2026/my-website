@@ -6,42 +6,49 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>صفحتي الشخصية</title>
+<title>نور | مطورة ويب</title>
 
 <style>
 
 body{
-    background:#f2f2f2;
+    margin:0;
     font-family:Arial;
+    background:#0f172a;
+    color:white;
 }
 
-.card{
-    background:white;
-    width:300px;
-    margin:auto;
-    margin-top:50px;
-    padding:20px;
-    border-radius:20px;
+header{
     text-align:center;
-    box-shadow:0 0 10px gray;
+    padding:50px;
 }
 
-img{
-    width:120px;
-    border-radius:50%;
+h1{
+    font-size:40px;
+}
+
+p{
+    color:#cbd5e1;
+}
+
+.section{
+    background:#1e293b;
+    margin:20px;
+    padding:20px;
+    border-radius:15px;
 }
 
 button{
-    background:#0077ff;
+    background:#38bdf8;
     color:white;
     border:none;
-    padding:10px 20px;
+    padding:12px 20px;
     border-radius:10px;
     cursor:pointer;
+    font-size:16px;
 }
 
 button:hover{
-    background:#0055cc;
+    background:#0ea5e9;
 }
 
 </style>
@@ -49,26 +56,46 @@ button:hover{
 
 <body>
 
-<div class="card">
-
-<img src="https://picsum.photos/200">
+<header>
 
 <h1>نور</h1>
 
 <p>
-مبتدئة بتطوير الويب والأمن السيبراني
+مبتدئة في تطوير الويب والأمن السيبراني
 </p>
 
 <button onclick="showMessage()">
 تواصل معي
 </button>
 
+</header>
+
+<div class="section">
+
+<h2>مهاراتي</h2>
+
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>تعلم الأمن السيبراني</li>
+</ul>
+
+</div>
+
+<div class="section">
+
+<h2>مشاريعي</h2>
+
+<p>
+أول موقع شخصي تم نشره على الإنترنت باستخدام GitHub Pages
+</p>
+
 </div>
 
 <script>
 
 function showMessage(){
-    alert("أهلاً بك 😊");
+    alert("شكراً لزيارتك موقعي");
 }
 
 </script>
